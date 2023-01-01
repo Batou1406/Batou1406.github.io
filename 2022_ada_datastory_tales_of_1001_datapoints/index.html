@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Datastory</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/popcorn.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume - v4.9.2
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <!-- <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li> -->
+        <li><a href="#problematic" class="nav-link scrollto"><i class="bx bx-question-mark"></i> <span>Problematic</span></a></li>
+        <li><a href="#data" class="nav-link scrollto"><i class="bx bx-data"></i> <span>Our data</span></a></li>
+        <li><a href="#metric" class="nav-link scrollto"><i class='bx bx-edit'></i> <span>Metrics</span></a></li>
+        <li><a href="#metric_distribution" class="nav-link scrollto"><i class='bx bx-bar-chart'></i><span>Representativity distribution</span></a></li>
+        <!-- <li><a href="#in_depth" class="nav-link scrollto"><i class='bx bx-bar-chart'></i> <span>In depth analysis</span></a></li> -->
+        <!-- <li><a href="#success" class="nav-link scrollto"><i class='bx bx-dollar'></i> <span>Critical/Commercial success</span></a></li> -->
+        <li><a href="#observational" class="nav-link scrollto"><i class='bx bx-search'></i> <span>Impact on success</span></a></li>
+        <li><a href="#conclusion" class="nav-link scrollto"><i class="bi bi-ticket-perforated"></i> <span>Conclusion</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <p><br> <br> <br></p>
+      <h1>Is diversity a recipe for success?</h1>
+      <p>How do <span class="typed" data-typed-items="women, asians, europeans, latinos"></span> impact a movie's critical and commercial success? </p>
+      <h2>A story from TalesOf1001DataPoints <br> 
+        Team: Baptiste Savioz, Henry Papadatos, Malek Elmekki and Nicolas Münger</h2>
+      <!-- <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div> -->
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Intro ======= -->
+    <section id="problematic" class="maintheme">
+      <div class="container" data-aos="fade-up">
+        <p><br></p> <!-- insert line break-->
+        <div class="section-title">
+          <h2>Why this matters</h2>
+          <p>
+            Television and especially films play a crucial role in our modern society. The main
+             characters in films serve as role models and inspire the younger generation, who may
+             spend up to 78,000 hours watching television in their lifetime, as a <a href="https://studyfinds.org/survey-the-average-adult-will-watch-more-than-78000-hours-of-tv/">survey</a> of 2,000
+             British adults has shown.<br>
+             Furthermore, the growing public interest in the issue of representativeness has led us
+             to study it through the cinema, believing that it plays a crucial role in achieving a
+             more inclusive society.<br>
+             To do this, we use a large database of films, and construct two indicators to measure
+             gender and ethnic representation within a film. We then look at the evolution of the
+             latter over time, across the main film genres, as well as across the different countries
+             of the world. Finally, we will try to show how representativeness is perceived by the
+             general public, by analysing the reviews and the box-office revenues of films.
+          </p>
+        </div>
+      </div>
+
+      <!-- Start Research questions-->
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <p><br></p> <!-- insert line break-->
+          <h2>Research questions</h2>
+          <p>
+            We focus our analysis on two main interrogations :
+          </p>
+
+          <dl>
+            <dt>How is representativity distributed across cinematography genre, countries of production and time ?</dt>
+            <dd>The theme of representativeness has become increasingly important in the public sphere in recent years,
+                but can this trend be seen in film? Are there regional anomalies? Are there discrepancies between film 
+                genres? We will try to answer these questions. In this section we will take a descriptive approach in 
+                order to highlight the different aspects of representativeness in the cinema.</dd>
+
+            <dt>How does representativity impact a movie’s critical and commercial success?</dt>
+            <dd>Our first question looks at differences in representation within the film industry, but how are they perceived?
+                Do they affect public opinion? Does this affect the box-office scores of the films? These are the questions we
+                will try to answer in this second part. With an analytical approach this time, we will try to measure the impact
+                that representativeness can have on the cinema and on the public.</dd>
+          </dl>
+
+        </div>
+      </div>
+       <!-- End Research questions-->
+
+    </section><!-- End Intro Section -->
+
+
+    <!-- ======= Data Section ======= -->
+    <section id="data" class="maintheme">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Our data</h2>
+
+          
+          <div class="container" data-aos="fade-up">
+            <div class="row">
+  
+              <div class="col-sm-1">
+                  <p></p>
+              </div>
+              
+              <div class="col">
+                <div class="count-box">
+                  <i class='bx bx-film'></i>
+                  <span data-purecounter-start="0" data-purecounter-end="81741" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Movies</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="count-box">
+                  <i class='bx bxs-face'></i>
+                  <span data-purecounter-start="0" data-purecounter-end="450669" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Characters</p>
+                </div>
+              </div>
+    
+              
+    
+              
+              <div class="col">
+                <div class="count-box">
+                  <i class='bx bx-receipt'></i>
+                  <span data-purecounter-start="0" data-purecounter-end="42306" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Synopses</p>
+                </div>
+              </div>
+              
+              <div class="col-sm-1">
+                  <p></p>
+              </div>
+            </div>
+          </div>
+
+
+          <p>          
+            To conduct our analysis, we used the <a href="https://www.cs.cmu.edu/~ark/personas/">CMU Movie Summary Corpus</a>.
+            This is a huge dataset with information on more than 80'000 films, 450'000 characters and more than 40'000 summaries.
+            We will guide you through the type of information available and all the manipulations we have done using the Christmas
+            classic <i>Love Actually</i> as an example. The dataset is separated in three categories:
+          </p>
+
+          <dl>
+            <dt>Movies metadata</dt>
+            <dd>
+              A table with general information about the films. Moreover, it contains <a href="https://www.wikidata.org/wiki/Q190588">wikidata identifiers</a>, which allowed us to 
+              enrich the data with an additional entry: <i>The Rotten Tomato score</i>. <a href="https://www.rottentomatoes.com/">Rotten Tomatoes</a> is an American website that gathers
+              professional reviews of a film, then classifies them between fresh and rotten. The Tomatometer is then the <i>freshness</i>
+              attributed to the film. In order to ensure that we had enough data to carry out an analysis, we also collected the
+              number of reviews made.
+            </dd>
+          </dl> 
+
+          <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>Movie</th>
+                    <th>Year</th>
+                    <th>Runtime</th>
+                    <th>Language (VO)</th>
+                    <th>Prodution country</th>
+                    <th>Genre</th>
+                    <th>Box office revenue</th>
+                    <th>Tomatometer</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Love Actually</td>
+                    <td>2003</td>
+                    <td>136 min</td>
+                    <td>English, French, Portuguese</td>
+                    <td>USA, France, United Kingdom</td>
+                    <td>Romantic, Drama, Comedy</td>
+                    <td>246 mio $</td>
+                    <td>64%</td>
+                </tr>
+                <!-- and so on... -->
+            </tbody>
+          </table>
+
+          <div class="col-">
+            <img src="assets/img/love_actually_tomato.png" class="img-fluid" alt="" width="400">
+            <figcaption>Score for the movie <a href="https://www.rottentomatoes.com/m/love_actually">Love Actually</a>. <br> We only consider the Tomatometer score, i.e. professional reviews.</figcaption>
+          </div>
+
+          <dl>
+            <dt>Characters metadata</dt>
+            <dd>
+              A table with different attributes about the actors and their film characters. However, the ethnicities given for the
+              actors were sometimes extremely specific and other times far too general. They were not usable for a meaningful 
+              analysis. We therefore grouped them into nine broad geographical categories, and a tenth to take into account
+              unclassifiable minorities.
+            </dd>
+          </dl>
+
+          <table class="styled-table">
+            <thead>
+              <tr>
+                <th>Movie</th>
+                <th>Character</th>
+                <th>Actor</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Height</th>
+                <th>Ethnicity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Love Actually</td>
+                <td>David</td>
+                <td>Hugh Grant</td>
+                <td>42</td>
+                <td>M</td>
+                <td>1.80m</td>
+                <td>european</td>
+              </tr>
+              <tr>
+                <td>Love Actually</td>
+                <td>Juliet</td>
+                <td>Keira Knightley</td>
+                <td>18</td>
+                <td>F</td>
+                <td>1.70m</td>
+                <td>european</td>
+              </tr>
+              <tr>
+                <td>Love Actually</td>
+                <td>Karen</td>
+                <td>Emma Thompson</td>
+                <td>44</td>
+                <td>F</td>
+                <td>1.71m</td>
+                <td>european</td>
+              </tr>
+              <tr>
+                <td>Love Actually</td>
+                <td>Jamie Bennett</td>
+                <td>Colin Firth</td>
+                <td>42</td>
+                <td>M</td>
+                <td>1.87m</td>
+                <td>european</td>
+              </tr>
+              <tr>
+                <td>Love Actually</td>
+                <td>Karl</td>
+                <td>Rodrigo Santoro</td>
+                <td>28</td>
+                <td>M</td>
+                <td>1.90m</td>
+                <td>South american</td>
+              </tr>
+              <tr>
+                <td colspan="7">...</td>
+              </tr>
+                <!-- and so on... -->
+            </tbody>
+          </table>
+
+          <dl>
+            <dt>Plot summaries</dt>
+            <dd>
+              English synopses from Wikipedia. In addition, in order to refine our future analyses, we analysed the lexical
+              field used in the summaries in order to assign a masculinity and femininity score to the summary. For this purpose,
+              we used the <a href="https://libraries.io/pypi/empath">empath</a> python library.</dd>
+          </dl>
+          
+          <table class="styled-table">
+            <thead>
+                <tr>
+                  <th>Movie</th>  
+                  <th>Summary</th>
+                  <th>Masculinity</th>
+                  <th>Feminity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Love Actually</td>
+                    <td><i>The film begins with a voiceover from David  commenting that whenever he gets gloomy with the state of the
+                      world he thinks about the arrivals terminal at Heathrow Airport, and the pure uncomplicated love felt as friends
+                      and families welcome their arriving loved ones. David's voiceover also relates that all the messages left by the
+                      people who died on the 9/11 planes were messages of love and not hate. The film then tells the 'love stories' of
+                      many people:  With the help of his longtime manager Joe , aging rock and roll legend Billy Mack  records a Christmas 
+                      variation of The Troggs' classic hit "Love Is All Around". Although he thinks the record is terrible, Mack promotes
+                      the release in the hope it will become the Christmas number one single. The song does go to number one; after
+                      briefly celebrating his victory at a party hosted by Sir Elton John, [...]</i></td>
+                    <td>0.00015</td>
+                    <td>0.00289</td>
+                </tr>
+                <!-- and so on... -->
+            </tbody>
+          </table>
+
+          <!-- <div class="col-">  
+            <iframe id="serviceFrameSend" scrolling="no" style="border:none;" seamless="seamless" src="assets/plots/testplotly.html" height="525" width="800"></iframe>
+          </div>
+
+          <div class="col-">  
+            <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~chris/1638.embed" height="525" width="100%"></iframe>
+          </div> -->
+
+          
+          
+
+        </div>
+      </div>
+    </section><!-- End Conclusion Section -->
+
+    
+
+     <!-- ======= Metric Section ======= -->
+     <section id="metric" class="maintheme">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Metrics</h2>
+          <p>To answer our research questions, we first need to have a way to quantify the 
+            diversity in movies. For this purpose we created some custom metrics :
+          </p>
+
+          <dl>
+            <dt><h3>
+              The actor score
+            </h3></dt>
+
+            <dd>
+              The first thing we needed to measure ethnic and gender diversity was to be able to quantify the importance
+              of the role played by an actor. Do they play a leading role, or is it only a minor role? To do this, we
+              analysed the summary of the film and awarded points each time a character was mentioned, and proportionally 
+              to the order of appearance. In addition, we used the natural language processing tool <a href="https://spacy.io/universe/project/neuralcoref">neuralcoref</a>
+               based on <a href="https://spacy.io">spaCy</a> to analyse the summaries, find the character's
+              co-references and replace them with their names, as highlighted in the example below.<br> 
+              <br> 
+              <details>
+                <summary>Mathematical details</summary>
+                <p>
+                  We construct the actor score as follows:<br> 
+                  <dl>
+                    - Each character starts with 2 points (we will perform a logarithm and we did not want to have the case log(1) = 0).<br> <br>  
+                    - We then give additional points each time a character is referenced in the summary. 1 point if it is the last reference in the text, two points if it is the second last, etc.<br><br>  
+                    - We calculate the actor score for each character as follows: [log(number of points)]/[total points], in order to have :<br> <br> 
+                    <dl>
+                      1. actor score &#8712; [0,1]<br> 
+                      2. &#8721; actor score = 1<br> 
+                    </dl>                    
+                  </dl>
+                </p>
+              </details>
+
+              <div style="display: flex; margin-left: 20px; margin-right: 20px; margin-bottom: 2em; margin-top: 2em;">
+                <div style="width: 50%; text-align: justify; margin-right: 2em;">
+                  <h5>Original summary</h5>
+                  On his eleventh birthday, Harry Potter discovers that he is no ordinary boy. Hagrid, a beetle-eyed giant,
+                  tells Harry that he is a wizard and has a place at Hogwarts School of Witchcraft and Wizardry, directed by
+                  the mysterious professor Dumbledore. In his first year of magical education, with his friends Hermione and
+                  Ron, Harry tackles a fully grown mountain troll, learns to play Quidditch, and participates in a thrilling
+                  "live" game of chess.
+                </div>
+                <div style="width: 50%; text-align: justify; margin-right: 2em;">
+                  <h5>Processed summary</h5>
+                  On his eleventh birthday, <b>Harry</b> discovers that <b>Harry</b> is no ordinary boy. <b>Hagrid</b>, a beetle-eyed giant,
+                  tells <b>Harry</b>  that <b>Harry</b> is a wizard and has a place at Hogwarts School of Witchcraft and Wizardry, directed by
+                  the mysterious professor <b>Dumbledore</b>. In his first year of magical education, with his friends <b>Hermione</b> and
+                  <b>Ron</b>, <b>Harry</b> tackles a fully grown mountain troll, learns to play Quidditch, and participates in a thrilling
+                  "live" game of chess.
+                </div>
+              </div>
+            </dd>
+          </dl>
+
+          <table class="styled-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Harry</th>
+                    <th>Hagrid</th>
+                    <th>Dumbledore</th>
+                    <th>Ron</th>
+                    <th>Hermione</th>
+                    <th>Snape</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b> Actor Score</b></td>
+                    <td>29.6%</td>
+                    <td>18.5%</td>
+                    <td>17.0%</td>
+                    <td>13.1%</td>
+                    <td>15.3%</td>
+                    <td>6.5%</td>
+                </tr>
+                <!-- and so on... -->
+            </tbody>
+          </table>
+
+
+          <dl>
+            <dt><h3>Gender metric</h3></dt>
+            <dd>The gender metric represents the parity of gender in a film. The more equitable a film is in its gender
+              representation, the higher its score will be.  Note that we only considered the genders already present in
+              the dataset, i.e. male and female. We used three factors to construct this score :
+              <ul>
+                <li>The ratio of male/female actors</li>
+                <li>The ratio of the importance of female/male roles</li>
+                <li>The difference in the masculinity/femininity scores of the summaries</li>
+              </ul>  
+            </dd>
+            <details>
+              <summary>Mathematical details</summary>
+              <p>
+                g &#8712; [0,1] : the gender score asociated to a movie i <br>
+                <br>
+                Number of male actor in movie i : m<sub>i</sub>  <br>
+                Number of female actress in movie i : f<sub>i</sub>  <br>
+                Ratio of female vs total number of actor in movie i : r<sub>i</sub> &#8712; [0,1]   <br> 
+                <br> 
+                Cummulated importance of male actor in movie i : mp<sub>i</sub>  <br> 
+                Cummulated importance of female actress in movie i : fp<sub>i</sub>  <br>   
+                Ratio of cumulated importance of female actress vs total roles importance rp<sub>i</sub>  <br> 
+                <br> 
+                Masculinity of speech in summary of movie i : ms<sub>i</sub>  <br> 
+                Feminility of speech in summary of movie i : fs<sub>i</sub>   <br> 
+                <br> 
+                r<sub>i</sub> &#8712; [0,1] : maximum gender diversity is at 0.5  <br> 
+                (1 - 2 &#8729; r<sub>i</sub>) &#8712;[-1,1] : maximum gender diversity is at 0   <br> 
+                |(1 - 2 &#8729; r<sub>i</sub>)| &#8712; [0,1] : maximum gender diversity is at 0  <br> 
+                1 - |(1 - 2 &#8729; r<sub>i</sub>)| &#8712; [0,1] : maximum gender diversity is at 1  <br> 
+                This part pounder gender score by proportion of gender represented  <br> 
+                <br> 
+                rp<sub>i</sub> &#8712; [0,1] : maximum gender diversity is at 0.5  /  <br> 
+                (1 - 2 &#8729; rp<sub>i</sub>) &#8712; [-1,1] : maximum gender diversity is at 0  /   <br> 
+                |(1 - 2 &#8729; rp<sub>i</sub>)| &#8712; [0,1] : maximum gender diversity is at 0  \ /    <br> 
+                1 - |(1 - 2 &#8729; rp<sub>i</sub>)| &#8712; [0,1] : maximum gender diversity is at 1 /\   <br> 
+                This part pounder gender score by relative importance of the role they play <br> 
+                <br> 
+                fs<sub>i</sub> - ms<sub>i</sub> : maximum diversity is at 0 /  <br> 
+                |fs<sub>i</sub> - ms<sub>i</sub>| : maximum diversity is at 0 \/   <br> 
+                1 - |fs<sub>i</sub> - ms<sub>i</sub>| : maximum diversity is at 1 /\   <br> 
+                This part pounder gender score by the empath score of the summary<br> 
+                <br> 
+                g = (1 - |(1 - 2 &#8729; r<sub>i</sub>)|)  &#8729; (1 - |(1 - 2 &#8729; rp<sub>i</sub>)|)  &#8729; (1 - |fs<sub>i</sub> - ms<sub>i</sub>|)  <br> 
+              </p>
+            </details>
+          </dl>
+            <table class="styled-table">
+              <thead>
+                  <tr>
+                      <th>Movie</th>
+                      <th>Actress</th>
+                      <th>Actor</th>
+                      <th>Importance of feminine roles</th>
+                      <th>Importance of masculine roles</th>
+                      <th>Feminity score</th>
+                      <th>Masculinity score</th>
+                      <th>Gender diversity score</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>Love Actually</td>
+                      <td>15</td>
+                      <td>16</td>
+                      <td>47.6%</td>
+                      <td>52.4%</td>
+                      <td>0.00015</td>
+                      <td>0.00289</td>
+                      <td><b>0.9175</b></td>
+                  </tr>
+                  <!-- and so on... -->
+              </tbody>
+            </table>
+
+          <dl>
+            <dt><h3>Ethnicity metric</h3></dt>
+            <dd>This metric aims to illustrate the ethnic diversity represented in a film. To calculate this value, we take into
+              account three main factors <br>
+            <ul>
+              <li>The number of different ethnicities present in the film in ratio to the number of actors</li>
+              <li>The relative importance of these ethnicities in terms of the number of actors (representing a minority is worth more points than representing a majority)</li>
+              <li>The visibility of minorities in leading roles</li>
+            </ul>   
+            </dd>  
+            <details>
+              <summary>Mathematical details</summary>
+              <p>
+                ethnicity score : s &#8712; [0,1]   <br> 
+                number of ethnicity in a movie i : e<sub>i</sub>  <br> 
+                number of actor in a movie i : a<sub>i</sub>  <br> 
+                ethnicity particular score : p &#8712; [0,1]<br> 
+                <br> 
+                e<sub>i</sub> / (min(e<sub>tot</sub>, a<sub>i</sub>)) : This term account for number of ethnicity represented  (linear in number) in a movie &#8712; [0,1]  <br> 
+                <br> 
+                &#8721;p<sub>j</sub> &#8712; [0,1] : This termn account for ethnicity relative importance. The more an ethnicity is represented, the less representative value it has.  <br> 
+                <br> 
+                &#8721; (min(p<sub>j</sub> - |&#8721; r<sub>jki</sub> - p<sub>j</sub>|,0)) : This term account for minority visibility in main roles.<br> 
+                <br> 
+                s<sub>i</sub> = [ (e<sub>i</sub> / min(e<sub>tot</sub>, a<sub>i</sub>)) + &#8721; p<sub>j</sub>+ &#8721; (max(p<sub>j</sub> - |&#8721; r<sub>jki</sub> - p<sub>j</sub>|,0)) ] / 3   <br> 
+                <br> 
+                ethnicity particluar score :<br> 
+                p<sub>j</sub> &#8712; [0,1] , p<sub>j</sub> is the largest for ethnicity that are the least represented.  <br> 
+                a<sub>j</sub>  : number of roles/characters of a specific ethnicity (in the whole dataset)  <br> 
+                r<sub>jk</sub> : Importance of the role k  <br> 
+                <br> 
+                p<sub>j</sub> = [1/ln(a<sub>j</sub>)] / [&#8721; 1/ln(a<sub>l</sub>)] &#8801; p<sub>j</sub> = 1 / [ ln(a<sub>j</sub>) &#8729; &#8721; (1 / ln(a<sub>l</sub>) ) ]<br> 
+                <br> 
+                Thus we have : p<sub>j</sub> &#8712; [0,1] and &#8721; p<sub>j</sub> = 1<br> 
+                <br> 
+                Importance of actor role : <br> 
+                r<sub>ki</sub> : Importance of the role k in the movie i  <br> 
+                &#8721;r<sub>jki</sub> : Cumulated importance of the roles played by acotors of ethnicity j in the movie i <br> 
+                &#8721; r<sub>jki</sub> - p<sub>j</sub> : Maximum ponderation for specific ethnicity at 0  /  <br> 
+                |&#8721; r<sub>jki</sub> - p<sub>j</sub>| : Maximum ponderation for specific ethnicity at 0  \ /    <br> 
+                p<sub>j</sub> - |&#8721; r<sub>jki</sub> - p<sub>j</sub>| : Maximum ponderation for specific ethnicity at p<sub>j</sub>  / \   <br> 
+                max(p<sub>j</sub> - |&#8721; r<sub>jki</sub> - p<sub>j</sub>|,0) : Maximum ponderation for specific ethnicity at p<sub>j</sub>  / \ <br> 
+              </p>
+            </details>
+          </dl>
+
+
+          <table class="styled-table">
+            <thead>
+                <tr>
+                  <th>Movie</th>  
+                  <th>number of ethnicity represented</th>
+                  <th>Importance of ethnicity represented</th>
+                  <th>Ethnicity diversity score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Love Actually</td>
+                    <td>40%</td>
+                    <td>33.6%</td>
+                    <td><b>0.2808</b></td>
+                </tr>
+                <!-- and so on... -->
+            </tbody>
+          </table>
+        
+        </div>
+      </div>
+    </section><!-- End Metric Section -->
+
+
+     <!-- ======= Metric distriubtion analysis Section ======= -->
+     <section id="metric_distribution" class="maintheme">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>How is representativity distributed across cinematography genre, countries of production and time?</h2>
+          <h4>Release date's influence</h4>
+          <p>
+            We are first interested at how the scores evolved through time. The average values of the gender diversity metric and ethnicity
+            diversity metric are displayed in the graph below.<br> Two trends can be seen to emerge. On the one hand, ethnic diversity
+            seems to be decreasing slightly or maybe even stabilising over the years, while on the other hand, we can clearly see
+            the diversity of the genre increasing, having almost tripled in less than a century.<br> An attempt can be made to explain
+            some of the decline in ethnic diversity by the growth of Indian cinema with the rise of Bollywood in particular and the
+            resulting large increase in actors of South Asian ethnicity. This cinema is naturally at a disadvantage in terms of
+            ethnic representation because it has only one predominant ethnicity, unlike American cinema, which can have two: North
+            American and African-American. In addition, Indian cinema has a large number of actors, thus it does not represent a
+            minority and therefore makes especially few points.<br>
+            On the contrary, we did not find an obvious explanation for the increase in gender diversity, so this would rather
+            suggest a societal change, which is good news for the representation of diversity. Later we shall try to measure
+            if this effect is visible in commercial or critical success of a movie.
+          </p>
+
+          <div class="col-">  
+              <iframe id="serviceFrameSend" scrolling="no" style="border:none;" seamless="seamless" src="assets/plots/temporal_evolution.html" height="525" width="80%"></iframe>
+          </div>
+
+          <p>
+            To visualise the evolution of the different genres of films produced, the ethnicity of the actors involved and the main countries
+            of production over time, we have created the interactive graph below. By double clicking on the title of a data item, it is
+            possible to select it in order to better visualise its evolution over time. Also it is normalised to see the percentage
+            distribution of our data. <br> This graph represents the evolution of world cinema, with all the biases associated with the method and
+            completeness with which the <a href="https://www.cs.cmu.edu/~ark/personas/">CMU Movie Summary Corpus</a> data was collected. The
+            emergence of Bollywood cinema, and the associated growth in the number of South Asian actors, can easlily be observed, as well as
+            the decline of black and white films. Interestingly enough, one can see the golden age of Italian cinema in the mid sixties where at
+            its peak it represented 25% of the world film production. 
+          </p>
+
+          <div class="col-">  
+            <iframe id="serviceFrameSend" scrolling="no" style="border:none;" seamless="seamless" src="assets/plots/yearly_categorical.html" height="525" width="80%"></iframe>
+          </div>
+          
+
+          <div class="section-title">
+            <h4>Country of origin's influence</h4>
+            <p> 
+              We were then interested to see if some country typically produced more diverse movies. The plot below shows
+              for each country (when available) the average scores of movies produced by said nation. The dropdown menu allows
+              to select between gender diversity score and ethnicity diversity score.<br>
+              Regarding ethnic diversity, there are no big surprises or particularly interesting discrepancies. Countries
+              (or rather continents) with a minor film industry naturally produce fewer actors, and therefore represent minorities
+              on screen. Hence, they naturally obtain better results. The case of India is a small exception, with a particularly
+              low score.<br> 
+              Similarly, there is no particular discrepancy regarding the representativeness of the genre with the exception of
+              the Iran-Pakistan-India area. An area that is not usually known for its gender equality, it is therefore particularly
+              surprising that it scores so well in terms of gender representation, almost 25% higher than the US. <br>
+              Note however that we only measure the importance of gender on screen in terms of visibility, and do not do further analysis 
+              on potential stereotypes that may exist.<br>
+            </p>
+  
+            <div class="col-">  
+                <iframe id="serviceFrameSend" scrolling="no" style="border:none;" seamless="seamless" src="assets/plots/world_metric.html" height="525" width="80%"></iframe>
+            </div>
+          </div>
+
+
+          <div class="section-title">
+            <h4>Movie genre's impact</h4>
+            <p> 
+              Finally, we looked at the distribution of the two scores among the main film genres. In order to have
+              a meaningful comparison, we considered only the 12 most common types of films in the dataset.<br>
+              Firstly, we notice that the category with the highest genre diversity scores is romance films. This
+              is easily explained as most films in this genre have a male and a female lead. Then, unsurprisingly, one
+              of the worst scores is for the category of black and white films. This is a category of film that has
+              disappeared over time, while the average representation of the genre has increased.  On the other hand,
+              it is more worrying that action films, short films and documentaries are the worst performers. When the
+              number of actors is low or when there are heroes, it is regrettable to see that it is always men who are highlighted.<br>
+              Regarding ethnic diversity, the metric is relatively well distributed across genres, with some interesting points.
+              On the one hand, it is curious to see that black and white films, which had a very poor representation of the
+              genre, are exemplary this time. Equally curious, but regrettable this time, is that the World Cinema category
+              has the worst score, without us being able to provide a convincing explanation.
+            </p>
+  
+            <div class="col-">  
+                <iframe id="serviceFrameSend" scrolling="no" style="border:none;" seamless="seamless" src="assets/plots/movie_genre_distribution.html" height="525" width="80%"></iframe>
+            </div>
+
+        </div>
+      </div>
+    </section><!-- Metric distribution analysis Section -->
+
+
+
+  
+
+
+
+
+
+
+
+    <!-- ======= Observational Section ======= -->
+    <section id="observational" class="maintheme">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>How does representativity impact a movie’s critical and commercial success?</h2>
+          <p>
+            In order to do the following analysis, we will use two additional features : the Rotten Tomatoes scores and the box office revenue. 
+            <br>The Rotten Tomatoes scores represent the success of the movies among critics. Whereas, the box office revenue represents the commercial success.
+            <br><br>
+            We will conduct an observational study to understand if the representativity in movies influences their success. 
+             <br>
+            The goal of the observational study is to eliminate all the elements that could influence the success of movies except the one we're interseted in :
+            representativity of course. These parasitic elements are called cofounders and the method to remove them is called matching.
+            In our case, we will remove the following cofounders: the country of production of a movie, the year of the production and the genre of the movie.
+              <br>
+            Once the cofounders are eliminated, we will finally be able to know if diversity in movies influence their success. 
+          </p>
+
+          <br>
+
+          <h4> The effect of representativity</h4>
+          <p>
+          In this first part, we'll use exact matching : a movie with low diversity and a movie with high diversity are matched if they have exactly the same genre, 
+          country of production and year of production, in order to make an unbiased comparison.
+          <br><br>
+          The left-side graph shows the impact of diversity on the Rotten Tomatoes score, which represents the film's critical reviews. It can be seen that on average
+          films with greater diversity are more successful, with for example an average of 4 points more on reviews of films with high ethnic diversity. However, it 
+          is important to note that this effect is not statistically significant, as the uncertainties are far too great.<br>
+          The right-hand chart illustrates the impact of diversity on box-office revenues. This time the trend is clearer and the uncertainties lower. There is even
+          a statistically significant difference for the impact of gender diversity, suggesting that film with higher gender diversity are indeed more successful,
+          at least in term of commercial success. 
+          <br><br>
+
+          You can hover over the plot to see if you find your favorite movie!
+        </p>
+
+            <div style="display: flex; margin-left: 0px; margin-right: 0px; margin-bottom: 1em; margin-top: 1em;">
+              <div style="width: 50%; text-align: justify;">
+                <div class="col-">  
+                  <iframe id="serviceFrameSend" scrolling="no" style="border:none;" seamless="seamless" src="assets/plots/observational_Rotten_Score.html" height="525" width="100%"></iframe>
+                </div>
+              </div>
+              <div style="width: 50%; text-align: justify;">
+                <div class="col-">  
+                  <iframe id="serviceFrameSend" scrolling="no" style="border:none;" seamless="seamless" src="assets/plots/observational_Box_office.html" height="525" width="100%"></iframe>
+                </div>
+              </div>
+            </div>
+
+            <h4>Time evolution of the effet of representativity</h4>
+            <p>
+              We now want to analyze if the influence of representativity in the success of movies evolves with time. In order to do so, we need to consider
+              movies year by year. Therefore, we manipulate less data at once. As we can not afford to loose much data points, we will use propensity score
+              matching. It is a more complex but less strict method than exact matching.<br>
+              <br>
+              The graph below shows the evolution of the difference in Rotten Tomatoes score between films with high diversity versus films with low
+              diversity. The scale is directly the number of additional percent obtained by movies with higher diversity.
+              One can observe that there is no clear trend of a potential effect of ethnic or gender diversity on the film reviews given by the Rotten Tomatoes score.
+              We see fluctuations from year to year, linked to the limited number of films available, while the average seems to remain stable
+              around zero.<br> We can see that the effect on ethnic diversity this time is slightly below zero, which contrasts with our previous
+              results. We explain this slight difference by the method of matching (propensity and no longer exact) which has changed. In any
+              case, the effect is not statistically significant enough for us to conclude that the effect is indeed present.<br>
+            </p>
+            <div class="col-">  
+              <iframe id="serviceFrameSend" scrolling="no" style="border:none;" seamless="seamless" src="assets/plots/temporal_obsstudy_rotten.html" height="525" width="80%"></iframe>
+            </div>
+
+            <p>
+              The graph below represents the difference in the average log revenue of high diversity films compared to low diversity films. For example, a difference
+              of 0.3 means that films with high diversity, on average, earned about 3 million dollars more in revenue.<br> 
+              Despite the annual differences, it can be seen that there is no significant change in the effects over the twenty years considered. On the other hand,
+              although there is no trend, we observe that the average is systematically higher than zero, which supports our previous analysis suggesting the presence
+              of a diversity effect on the commercial success of a film.
+            </p>
+            <div class="col-">  
+              <iframe id="serviceFrameSend" scrolling="no" style="border:none;" seamless="seamless" src="assets/plots/temporal_obsstudy_box.html" height="525" width="80%"></iframe>
+            </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Obeservational Section -->
+
+
+    <!-- ======= Block for image Section ======= -->
+
+
+     <!-- <section id="image_block" class="maintheme">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Just to know how to insert image with text side by side</h2>
+          <p>Insert all the plots etc.
+
+            <div style="display: flex; margin-left: 120px; margin-right: 120px; margin-bottom: 2em; margin-top: 2em;">
+              <div style="width: 40%;">
+                <img src="assets/img/2001_space.png" class="img-fluid" alt="">
+              </div>
+              <div style="width: 60%; text-align: justify; margin-left: 2em;">
+                <h3>Put image and text 1</h3>
+                Put image and text example <br>
+                BLablablaldaaaaaaaaaaaaa aaaaaaaaadfas dfasjdfhs aldjfhsadfhasf  hdlasdfhsa kdh jfsadjhfalsdhfadjflsdjfadfa
+              </div>
+            </div>
+
+            <div style="display: flex; margin-left: 120px; margin-right: 120px; margin-bottom: 2em; margin-top: 3em;">
+              
+              <div style="width: 60%; text-align: justify; margin-right: 2em;">
+                <h3>Put image and text 2</h3>
+                Put image and text side by side other example <br>
+                BLablablaldaaaaaaaaaaaaa aaaaaaaaadfasdfasjdfhs aldjfhsadfhasf  hdlasdfhsa kdhjfsadjhfalsdhfadjflsdjfadfa
+              </div>
+              <div style="width: 40%;">
+                <img src="assets/img/dlab.svg" class="img-fluid" alt="">
+              </div>
+            </div>
+
+          </p>
+
+        </div>
+      </div>
+    </section> -->
+    
+    <!-- Image Section -->
+
+
+
+
+
+    <!-- ======= Conclusion Section ======= -->
+    <section id="conclusion" class="maintheme">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Conclusion</h2>
+          <p>Through this project, we explored the influence of gender and ethnic diversity in the movie industry. To this end, we built two metrics: the gender diversity metric and the ethnicity diversity metric. We then answered two broad research questions:
+          </p>
+
+          <dl>
+            <dt>How is representativity distributed across cinematography genre, countries of production and time ?</dt>
+            <dd>The most interesting result we obtained when answering this question is the time evolution of the representativity. 
+              Indeed, in the last 50 years, the average gender representativity has been multiplied by 3 ! It was an interesting yet pleasing discovery, even though the way to equity is still long.  On the other hand, the ethnicity score has slightly reduced over the same time window. 
+              </dd>
+
+            <dt>How does representativity impact a movie’s critical and commercial success?</dt>
+            <dd>All our results were in the encouraging direction of a more diverse and equitable cinema, although the only statistically significant result we obtained is the impact of gender diversity on box office revenue.
+            </dd>
+          </dl>
+
+          <p>These two results combined give us some very interesting insights. <br>
+            As we said, the success of movies is more impacted by gender diversity than it is by ethnicity diversity. We also observed that only the gender score increases over time. 
+            This is good news for gender diversity! There is still plenty of work to be done because we're still far from the objective, but we are going in the right direction. 
+            On the contrary, our results show that the problem of the lack of ethnicity diversity is not yet ready to be solved in the cinema industry.
+            </p>
+
+
+        </div>
+      </div>
+    </section><!-- End Conclusion Section -->
+
+
+
+    
+<!-- ======= Github links ======= -->
+<section id="services" class="services">
+  <div class="container" data-aos="fade-up">
+
+    <!-- <div class="section-title">
+      <h2>Useful links</h2>
+    </div> -->
+
+    <div class="row">
+      <div class="col-sm  ">
+        <br>
+      </div>
+
+      <div class="col-sm  " data-aos="zoom-in" data-aos-delay="100">
+        <div class="icon-box iconbox-blue">
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+            </svg>
+            <i class="bi bi-github"></i>
+          </div>
+          <h4><a href="https://github.com/epfl-ada/ada-2022-project-talesof1001datapoints">Our repository</a></h4>
+        </div>
+      </div>
+
+      <div class="col-sm" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box iconbox-orange ">
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+            </svg>
+            <i class="bi bi-clipboard-data"></i>
+          </div>
+          <h4><a href="https://dlab.epfl.ch/teaching/fall2022/cs401/">Course website</a></h4>
+        </div>
+      </div>
+
+
+      <div class="col-sm  ">
+        <br>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- Links -->
+
+
+
+
+
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <!--- Trying to create other footer, starts here-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1">
+          
+        </div>
+        <div class="col-sm-2">
+          <img src="assets/img/dlab.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 content">
+          <h3>Is diversity a recipe for success?</h3>
+          <p>
+            Built as part of the Applied Data Analysis course at EPFL in Lausanne. </br>
+            Team members: Baptiste Savioz, Henry Papadatos, Malek Elmekki and Nicolas Münger.
+          </p>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: [license-url] -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!--- Ends here, after, original footer-->
+
+  </footer>
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
