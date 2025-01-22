@@ -621,6 +621,18 @@ section,
   line-height: 0;
 }
 
+.about .row {
+  display: flex; /* Use Flexbox for alignment */
+  align-items: center; /* Center vertically */
+}
+
+.about .col-lg-8.content {
+  display: flex; /* Apply Flexbox to this column */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally (optional, can adjust as needed) */
+  text-align: left; /* Align text to the left */
+}
+
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
@@ -659,6 +671,7 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 16px;
 }
+
 
 /*--------------------------------------------------------------
 # Skills Section
@@ -726,8 +739,10 @@ section,
 
 .resume .resume-item h5 {
   font-size: 16px;
-  padding: 5px 15px;
-  display: inline-block;
+  /* padding: 5px 15px; */
+  /* display: inline-block; */
+  padding: 5px 0 5px 0;
+  display: block;
   font-weight: 600;
   margin-bottom: 10px;
 }
